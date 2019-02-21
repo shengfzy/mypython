@@ -152,6 +152,7 @@ class Network(object):
         are empty if the corresponding flag is not set.
 
         """
+ 
         if evaluation_data: n_data = len(evaluation_data)
         n = len(training_data)
         evaluation_cost, evaluation_accuracy = [], []
